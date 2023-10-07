@@ -1,0 +1,23 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "allowCompoundWords": true,
+  "enableFiletypes": ["vue"],
+  "languageSettings": [
+    {
+      "languageId": "vue",
+      "dictionaries": ["html", "fonts", "typescript", "javascript", "css"]
+    }
+  ],
+  "words": ["rocale"],
+  "ignorePaths": [
+    ".vscode",
+    ".devcontainer",
+    ".git",
+    "node_modules",
+    "package.json",
+    "yarn.lock",
+    ".history",
+    ".cspell.json"
+  ]
+}
