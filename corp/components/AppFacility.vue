@@ -6,7 +6,7 @@
         <li class="AppFacility__ListItem sd">
           <div class="AppFacility__ListTitle sd">
             <p class="AppFacility__ListTitleText text sd">
-              Green Sauna Village
+              Green Sauna Village（仮称）
             </p>
           </div>
           <p class="AppFacility__ListCaption text sd">
