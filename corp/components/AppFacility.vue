@@ -6,29 +6,25 @@
         <li class="AppFacility__ListItem sd">
           <div class="AppFacility__ListTitle sd">
             <p class="AppFacility__ListTitleText text sd">
-              MIDORITO SAUNA（ミドリトサウナ）
-            </p>
-            <p>
               <a href="https://midorito-sauna.jp" target="_blank"
-                >https://midorito-sauna.jp</a
+                >MIDORITO SAUNA（ミドリトサウナ）</a
               >
             </p>
           </div>
+          <div>
+            <img
+              class="AppFacility__ListImage sd"
+              alt="MIDORITO SAUNA（ミドリトサウナ）"
+              src="~/assets/images/midorito-sauna.png"
+            />
+          </div>
           <p class="AppFacility__ListCaption text sd">
             茨城県日立市にある、緑に囲まれ、蛍が生息する水がとてもきれいな土地で、<br />日立の里山に流れるまろやかな湧き水を使ったアウトドアサウナ施設をつくっています。<br />
-            MIDORITO SAUNA（ミドリトサウナ）は<a
-              href="https://www.pref.ibaraki.jp/kikaku/kenpokusinkou/chiiki/project_e/bosyu.html"
-              target="_blank"
-              >kenpoku PROJECT E（茨城県北起業型地域おこし）</a
-            >に採択されたプロジェクトです。<br />
+            MIDORITO SAUNA（ミドリトサウナ）はkenpoku PROJECT
+            E（茨城県北起業型地域おこし）に採択されたプロジェクトです。<br />
             日立市の魅力をより多くの人に知ってもらうため、県や市と協力しながら周辺地域で一体となって施設を運営していきます。<br />
             ※2024年&nbsp;夏&nbsp;グランドオープン予定
           </p>
-          <img
-            class="AppFacility__ListImage sd"
-            alt="MIDORITO SAUNA（ミドリトサウナ）"
-            src="~/assets/images/midorito-sauna.png"
-          />
         </li>
       </ul>
     </div>

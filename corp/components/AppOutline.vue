@@ -27,9 +27,9 @@
           <p class="AppOutline__PresidentLine text sd">代表取締役</p>
           <p class="AppOutline__PresidentValue text sd">相澤 雄大</p>
         </div>
-        <div class="AppOutline__PresidentDefinition sd">
-          <p class="AppOutline__PresidentLine text sd">事業内容</p>
-          <p class="AppOutline__PresidentValue text sd">
+        <div class="AppOutline__WorkDefinition sd">
+          <p class="AppOutline__WorkLine text sd">事業内容</p>
+          <p class="AppOutline__WorkValue text sd">
             <ul>
               <li>公衆浴場・宿泊・飲食店の運営および開業支援</li>
               <li>宿泊施設へのサウナ設備導入支援</li>
@@ -298,5 +298,61 @@
     max-width: 100%;
     justify-content: flex-start;
   }
+
+
+  &__WorkDefinition {
+    background: rgba(0, 0, 0, 0);
+    border-bottom: solid 1px #060605;
+    border-radius: 0;
+    flex-direction: row;
+    opacity: 1;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding: 20px 0px 20px 0px;
+    width: 500px;
+    max-width: 100%;
+    @media screen and (max-width: 480px) {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  &__WorkLine {
+    border-radius: 0;
+    color: #060605;
+    font-family: var(--s-font-95b7d416);
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 2;
+    margin: 0px 30px 0px 0px;
+    opacity: 1;
+    padding: 0 0 0 0;
+    text-align: left;
+    width: 80px;
+    max-width: calc(100% - 30px);
+    justify-content: flex-start !important;
+  }
+
+  &__WorkValue {
+    border-radius: 0;
+    color: #060605;
+    font-family: var(--s-font-95b7d416);
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 2;
+    margin: 0 0 0 0;
+    opacity: 1;
+    padding: 0 0 0 0;
+    text-align: left;
+    max-width: 100%;
+    justify-content: flex-start;
+    li {
+      padding: 4px 8px;
+    }
+  }
+
+
+  }
+
 }
 </style>
