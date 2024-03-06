@@ -17,15 +17,25 @@
           <p class="AppOutline__AddressLine text sd">住所</p>
           <p class="AppOutline__AddressValue text sd">
             <span class="AppOutline__AddresTokyoOfficeText">東京本社</span
-            ><br />〒114-0002　東京都北区王子5丁目1−1−1125号<br /><span
+            ><br />〒114-0002　東京都北区王子5-1−1−1125<br /><span
               class="AppOutline__AddresHitachiOfficeText"
               >日立事務所</span
-            ><br />〒319-1305　茨城県日立市十王町高原554−1
+            ><br />〒319-1304　茨城県日立市十王町友部72-5-203
           </p>
         </div>
         <div class="AppOutline__PresidentDefinition sd">
           <p class="AppOutline__PresidentLine text sd">代表取締役</p>
           <p class="AppOutline__PresidentValue text sd">相澤 雄大</p>
+        </div>
+        <div class="AppOutline__PresidentDefinition sd">
+          <p class="AppOutline__PresidentLine text sd">事業内容</p>
+          <p class="AppOutline__PresidentValue text sd">
+            <ul>
+              <li>公衆浴場・宿泊・飲食店の運営および開業支援</li>
+              <li>宿泊施設へのサウナ設備導入支援</li>
+              <li>ITコンサルティング・システム開発支援</li>
+            </ul>
+          </p>
         </div>
       </div>
     </div>
