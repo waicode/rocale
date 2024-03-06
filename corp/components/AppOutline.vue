@@ -29,13 +29,11 @@
         </div>
         <div class="AppOutline__WorkDefinition sd">
           <p class="AppOutline__WorkLine text sd">事業内容</p>
-          <p class="AppOutline__WorkValue text sd">
-            <ul>
-              <li>公衆浴場・宿泊・飲食店の運営および開業支援</li>
-              <li>宿泊施設へのサウナ設備導入支援</li>
-              <li>ITコンサルティング・システム開発支援</li>
-            </ul>
-          </p>
+          <ul class="AppOutline__WorkValue text sd">
+            <li>公衆浴場・宿泊・飲食店の運営および開業支援</li>
+            <li>宿泊施設へのサウナ設備導入支援</li>
+            <li>ITコンサルティング・システム開発支援</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -299,7 +297,6 @@
     justify-content: flex-start;
   }
 
-
   &__WorkDefinition {
     background: rgba(0, 0, 0, 0);
     border-bottom: solid 1px #060605;
@@ -347,9 +344,9 @@
     max-width: 100%;
     justify-content: flex-start;
     li {
-      padding: 4px 8px;
+      padding: 4px;
+      font-family: var(--s-font-95b7d416);
     }
   }
-
 }
 </style>

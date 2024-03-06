@@ -11,13 +11,6 @@
               >
             </p>
           </div>
-          <div>
-            <img
-              class="AppFacility__ListImage sd"
-              alt="MIDORITO SAUNA（ミドリトサウナ）"
-              src="~/assets/images/midorito-sauna.png"
-            />
-          </div>
           <p class="AppFacility__ListCaption text sd">
             茨城県日立市にある、緑に囲まれ、蛍が生息する水がとてもきれいな土地で、<br />日立の里山に流れるまろやかな湧き水を使ったアウトドアサウナ施設をつくっています。<br />
             MIDORITO SAUNA（ミドリトサウナ）はkenpoku PROJECT
@@ -25,6 +18,11 @@
             日立市の魅力をより多くの人に知ってもらうため、県や市と協力しながら周辺地域で一体となって施設を運営していきます。<br />
             ※2024年&nbsp;夏&nbsp;グランドオープン予定
           </p>
+          <img
+            class="AppFacility__ListImage sd"
+            alt="MIDORITO SAUNA（ミドリトサウナ）"
+            src="~/assets/images/midorito-sauna.png"
+          />
         </li>
       </ul>
     </div>
@@ -90,21 +88,23 @@
   }
 
   &__ListTitleText {
-    border-radius: 0;
-    color: #060605;
-    font-family: var(--s-font-17b9b6dd);
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 0em;
-    line-height: 1.8;
-    margin: 0px 10px 0px 0px;
-    opacity: 1;
-    padding: 0 0 0 0;
-    text-align: left;
-    max-width: calc(100% - 10px);
-    justify-content: flex-start;
-    @media screen and (max-width: 480px) {
-      font-size: 18px;
+    a {
+      border-radius: 0;
+      color: #060605;
+      font-family: var(--s-font-17b9b6dd);
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0em;
+      line-height: 1.8;
+      margin: 0px 10px 0px 0px;
+      opacity: 1;
+      padding: 0 0 0 0;
+      text-align: left;
+      max-width: calc(100% - 10px);
+      justify-content: flex-start;
+      @media screen and (max-width: 480px) {
+        font-size: 18px;
+      }
     }
   }
 
@@ -132,8 +132,8 @@
     height: auto;
     opacity: 1;
     padding: 0 0 0 0;
-    width: 100%;
-    max-width: 100%;
+    width: 66%;
+    max-width: 66%;
     @media screen and (max-width: 768px) {
       height: 295px;
       width: 482px;
