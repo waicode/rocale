@@ -29,7 +29,7 @@
         </div>
         <div class="AppOutline__WorkDefinition sd">
           <p class="AppOutline__WorkLine text sd">事業内容</p>
-          <ul class="AppOutline__WorkValue text sd">
+          <ul class="AppOutline__WorkValue sd">
             <li>公衆浴場・宿泊・飲食店の運営および開業支援</li>
             <li>宿泊施設へのサウナ設備導入支援</li>
             <li>ITコンサルティング・システム開発支援</li>
