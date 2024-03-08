@@ -115,14 +115,14 @@
     font-weight: 400;
     letter-spacing: 0em;
     line-height: 1.8;
-    margin: 0px 0px 80px 0px;
+    margin: 0px 0px 24px 0px;
     opacity: 1;
     padding: 0 0 0 0;
     text-align: left;
     max-width: 100%;
     justify-content: flex-start;
     @media screen and (max-width: 480px) {
-      margin: 0px 0px 50px 0px;
+      margin: 0px 0px 20px 0px;
       max-width: 100%;
     }
   }
