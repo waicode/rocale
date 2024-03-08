@@ -331,6 +331,7 @@
   }
 
   &__WorkValue {
+    display: block;
     border-radius: 0;
     color: #060605;
     font-family: var(--s-font-95b7d416);
