@@ -345,7 +345,7 @@
     max-width: 100%;
     justify-content: flex-start;
     li {
-      padding: 4px;
+      padding: 4px 0;
       font-family: var(--s-font-95b7d416);
     }
   }
