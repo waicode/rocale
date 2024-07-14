@@ -16,13 +16,14 @@
             MIDORITO SAUNA（ミドリトサウナ）はkenpoku PROJECT
             E（茨城県北起業型地域おこし）に採択されたプロジェクトです。<br />
             日立市の魅力をより多くの人に知ってもらうため、県や市と協力しながら周辺地域で一体となって施設を運営していきます。<br />
-            ※2024年&nbsp;夏&nbsp;グランドオープン予定
+            2024年7月28日よりプレオープン営業を開始しました。
           </p>
-          <img
-            class="AppFacility__ListImage sd"
-            alt="MIDORITO SAUNA（ミドリトサウナ）"
-            src="~/assets/images/midorito-sauna.png"
-          />
+          <a href="https://midorito-sauna.jp" target="_blank"
+            ><img
+              class="AppFacility__ListImage sd"
+              alt="MIDORITO SAUNA（ミドリトサウナ）"
+              src="~/assets/images/midorito-sauna.png"
+          /></a>
         </li>
       </ul>
     </div>
