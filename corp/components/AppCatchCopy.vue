@@ -55,7 +55,7 @@
       font-size: 72px;
     }
     @media screen and (max-width: 480px) {
-      font-size: 44px;
+      font-size: 40px;
     }
   }
 
@@ -73,8 +73,12 @@
     text-align: left;
     max-width: 100%;
     justify-content: flex-start;
+
+    @media screen and (max-width: 768px) {
+      font-size: 36px;
+    }
     @media screen and (max-width: 480px) {
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 }
