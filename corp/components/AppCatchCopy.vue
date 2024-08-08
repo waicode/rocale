@@ -40,11 +40,11 @@
     border-radius: 0;
     color: #060605;
     font-family: var(--s-font-17b9b6dd);
-    font-size: 101px;
+    font-size: 88px;
     font-weight: 700;
     letter-spacing: 0em;
     line-height: 1.2;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 24px 0px;
     opacity: 1;
     padding: 0 0 0 0;
     text-align: left;
@@ -63,7 +63,7 @@
     border-radius: 4px;
     color: #060605;
     font-family: var(--s-font-95b7d416);
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing: 0em;
     line-height: 1.8;
