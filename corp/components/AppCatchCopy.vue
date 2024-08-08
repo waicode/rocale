@@ -2,9 +2,9 @@
   <div class="AppCatchCopy">
     <h1 class="AppCatchCopy__Head sd">
       <span class="AppCatchCopy__Message text sd"
-        >Create a locale<br />for health of mind and body.<br /></span
+        >Rediscovering Japan: Embracing "Rocale"<br /></span
       ><span class="AppCatchCopy__Caption text sd"
-        >株式会社Rocaleは、心身が浄化され、人が人らしく生きられる舞台・文化をつくります。<br
+        >地域の豊かさから、日本を再発掘。<br
       /></span>
     </h1>
   </div>
