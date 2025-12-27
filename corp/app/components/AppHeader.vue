@@ -3,17 +3,33 @@ import { ref, onMounted, onUnmounted } from "vue";
 
 const isLogoActive = ref(true);
 
+const throttle = <T extends (...args: Parameters<T>) => void>(
+  fn: T,
+  delay: number
+): ((...args: Parameters<T>) => void) => {
+  let lastCall = 0;
+  return (...args: Parameters<T>) => {
+    const now = Date.now();
+    if (now - lastCall >= delay) {
+      lastCall = now;
+      fn(...args);
+    }
+  };
+};
+
 // ロゴの表示制御
 const scrollDisplayControl = () => {
   isLogoActive.value = 40 > window.scrollY;
 };
 
+const throttledScrollHandler = throttle(scrollDisplayControl, 100);
+
 onMounted(() => {
-  window.addEventListener("scroll", scrollDisplayControl);
+  window.addEventListener("scroll", throttledScrollHandler, { passive: true });
 });
 
 onUnmounted(() => {
-  window.removeEventListener("scroll", scrollDisplayControl);
+  window.removeEventListener("scroll", throttledScrollHandler);
 });
 </script>
 
