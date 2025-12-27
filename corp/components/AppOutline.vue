@@ -30,7 +30,7 @@
         <div class="AppOutline__PresidentDefinition sd">
           <p class="AppOutline__PresidentLine text sd">従業員数</p>
           <p class="AppOutline__PresidentValue text sd">
-            3名（パート・アルバイトを含む）
+            12名（パート・アルバイトを含む）
           </p>
         </div>
         <div class="AppOutline__WorkDefinition sd">
