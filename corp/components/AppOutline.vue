@@ -20,7 +20,7 @@
             ><br />〒114-0002　東京都北区王子5-1−1−1125<br /><span
               class="AppOutline__AddresHitachiOfficeText"
               >日立事務所</span
-            ><br />〒319-1304　茨城県日立市十王町友部72-5-203
+            ><br />〒319-1305　茨城県日立市十王町高原545-2
           </p>
         </div>
         <div class="AppOutline__PresidentDefinition sd">
