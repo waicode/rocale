@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ref, onMounted, onUnmounted } from "vue";
+
 const isLogoActive = ref(true);
 
 // ロゴの表示制御
@@ -6,15 +8,13 @@ const scrollDisplayControl = () => {
   isLogoActive.value = 40 > window.scrollY;
 };
 
-if (process.client) {
-  onMounted(() => {
-    window.addEventListener("scroll", scrollDisplayControl);
-  });
+onMounted(() => {
+  window.addEventListener("scroll", scrollDisplayControl);
+});
 
-  onUnmounted(() => {
-    window.removeEventListener("scroll", scrollDisplayControl);
-  });
-}
+onUnmounted(() => {
+  window.removeEventListener("scroll", scrollDisplayControl);
+});
 </script>
 
 <template>

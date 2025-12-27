@@ -11,13 +11,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.4",
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.5",
+    "nuxt": "^4.2.2",
+    "vue": "^3.5.0",
     "sass": "^1.69.0"
   },
   "volta": {
-    "node": "16.20.2",
+    "node": "22.21.1",
     "yarn": "1.22.17"
   }
 }

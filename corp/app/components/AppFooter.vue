@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ref, onMounted, onUnmounted } from "vue";
+
 const isButtonsActive = ref(false);
 
 // ボタンの表示制御
