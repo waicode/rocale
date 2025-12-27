@@ -7,30 +7,44 @@
           <div class="AppFacility__ListTitle sd">
             <p class="AppFacility__ListTitleText text sd">
               <a href="https://midorito-sauna.jp" target="_blank"
-                >MIDORITO SAUNA（ミドリトサウナ）</a
+                >MIDORITO SAUNA（ミドリトサウナ） Glamorous BBQ&Camp</a
               >
             </p>
           </div>
+          <div class="AppFacility__ListImage sd">
+            <a href="https://midorito-sauna.jp" target="_blank"
+              ><img
+                class="AppFacility__ListImage sd"
+                alt="MIDORITO SAUNA（ミドリトサウナ） Glamorous BBQ&Camp"
+                src="~/assets/images/midorito-sauna.png"
+            /></a>
+          </div>
+          <p class="AppFacility__ListLinkText text link sd">
+            <a href="https://midorito-sauna.jp" target="_blank"
+              >MIDORITO SAUNA（ミドリトサウナ） Glamorous BBQ&Camp</a
+            >
+          </p>
           <p class="AppFacility__ListCaption text sd">
             それは、何もなかったグリーンふるさとの荒野を切り開き生まれた、<br />
             アウトドアの「ととのい」を追求した緑と水と炎のサウナ。<br />
             茨城県日立市にある、緑に囲まれ、蛍が生息する水がとてもきれいな土地で、<br />
-            日立の里山に流れるまろやかな湧き水を使ったアウトドアサウナ施設が誕生しました。<br />
+            日立の里山に流れるまろやかな湧き水を使ったアウトドアサウナ施設を運営しています。<br />
+            里山が届ける美しい水を使ったアウトドアだからこそできる「ととのい」を追求したサウナとともに、<br />
+            小さな大自然を自分達だけのものにする贅沢を体験していただけます。<br />
+            せせらぎと楽しむ渓流BBQは最大50名様でご利用いただけます。<br />
+            キャンプエリアを含むWi-Fi完備の約1000坪の土地を活用して、<br />
+            県内の企業・団体様の福利厚生や社内イベントとしてもご活用いただいております。
+          </p>
+          <p class="AppFacility__ListCaption text sd">
             当施設はKENPOKU PROJECT
             E（茨城県北地域おこし協力隊【起業・複業型】）に採択されたプロジェクトです。<br />
-            日立市の魅力をより多くの人に知ってもらうため、周辺地域一体となって県や市と協力しながら施設を運営していきます。<br />
-            MIDORITO
-            SAUNA（ミドリトサウナ）を通じて実現したいことは、土地が持つ本来的な価値を引き出し、<br />
-            何もしなければ生まれなかった「人の好循環」を生み出すこと。<br />
+            茨城県日立市の魅力をより多くの人に知ってもらうため、周辺地域一体となって県や市と協力しながら施設を運営していきます。<br />
+            MIDORITO SAUNA（ミドリトサウナ）Glamorous
+            BBQ&Campを通じて実現したいことは、<br />
+            土地が持つ本来的な価値を引き出し、何もしなければ生まれなかった「人の好循環」を生み出すこと。<br />
             地域に愛され、都市圏から人が来る理由が存在する場所となることが大きな意義であり、<br />
             当施設をきっかけに、地域一体を巻き込んだ持続可能なビジネスへと発展させていきます。
           </p>
-          <a href="https://midorito-sauna.jp" target="_blank"
-            ><img
-              class="AppFacility__ListImage sd"
-              alt="MIDORITO SAUNA（ミドリトサウナ）"
-              src="~/assets/images/midorito-sauna.png"
-          /></a>
         </li>
       </ul>
     </div>
@@ -93,6 +107,38 @@
     overflow-x: visible;
     overflow-y: visible;
     padding: 0 0 0 0;
+    margin: 0px 0px 12px 0px;
+  }
+
+  &__ListImage {
+    border-radius: 8px;
+    margin: 0px 0px 8px 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &__ListLinkText {
+    a {
+      border-radius: 0;
+      color: #0066c0;
+      font-family: var(--s-font-95b7d416);
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0em;
+      line-height: 1.8;
+      margin: 0px 0px 24px 0px;
+      opacity: 1;
+      padding: 0 0 0 0;
+      text-align: left;
+      max-width: 100%;
+      margin: 0px 0px 20px 0px;
+      justify-content: flex-start;
+      @media screen and (max-width: 480px) {
+        margin: 0px 0px 20px 0px;
+        font-size: 18px;
+        max-width: 100%;
+      }
+    }
   }
 
   &__ListTitleText {
