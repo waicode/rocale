@@ -97,6 +97,7 @@ var,
 video {
   -webkit-font-smoothing: antialiased;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   border: 0;
   box-sizing: border-box;
   color: #333;
@@ -247,6 +248,7 @@ input[type="text"],
 select,
 textarea {
   -webkit-appearance: none;
+  appearance: none;
 }
 
 select {
